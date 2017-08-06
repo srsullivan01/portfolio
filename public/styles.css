@@ -1,0 +1,52 @@
+.logo {
+  font-weight: 300;
+  padding-left: 20px;
+}
+/*.parallax-container {
+     min-height: 400px;
+     min-wdith: auto;
+   }*/
+
+.thin-text {
+  font-weight: 300;
+  background: rgba(85, 139, 47, 0.4);
+  padding:40px;
+  border-radius: 10px
+}
+
+.cta {
+  font-weight: 300;
+  text-shadow: 1px 1px black;
+}
+
+.contact-form {
+  padding-top: 40px;
+}
+
+/* label color */
+   .input-field label {
+     color: #000;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #000;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #000;
+   }
