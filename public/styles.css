@@ -1,3 +1,6 @@
+body {
+  background-color: #FCF9F0;
+}
 .logo {
   font-weight: 300;
   padding-left: 20px;
@@ -6,7 +9,13 @@
      min-height: 400px;
      min-wdith: auto;
    }*/
+a {
+  text-decoration: none;
+}
 
+#my-projects{
+  color: #0000;
+}
 .thin-text {
   font-weight: 300;
   background: rgba(85, 139, 47, 0.4);
@@ -25,16 +34,16 @@
 
 /* label color */
    .input-field label {
-     color: #000;
+     color: #0000;
    }
    /* label focus color */
    .input-field input[type=text]:focus + label {
-     color: #000;
+     color: #0000;
    }
    /* label underline focus color */
    .input-field input[type=text]:focus {
-     border-bottom: 1px solid #000;
-     box-shadow: 0 1px 0 0 #000;
+     border-bottom: 1px solid #0000;
+     box-shadow: 0 1px 0 0 #0000;
    }
    /* valid color */
    .input-field input[type=text].valid {
